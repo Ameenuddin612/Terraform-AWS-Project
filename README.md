@@ -29,12 +29,6 @@ Each EC2 instance runs a simple Apache web server and displays:
 - Instance ID fetched using metadata service
 - Basic animated HTML page via index.html
 
-# 🛡️ Security Group Rules
-Type	    Port	  Source	    Description
-Ingress	  80	    0.0.0.0/0	  HTTP access
-Ingress	  22	    0.0.0.0/0	  SSH access
-Egress	  All	    0.0.0.0/0	  Outbound
-
 # 🌍 Technologies Used
 - Terraform
 - AWS EC2

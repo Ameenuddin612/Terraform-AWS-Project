@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "todaynow20052025"
-    key    = "terraform.tfstate"
+    bucket = "Bucket_name"
+    key    = "Folder inside the bucket"
     region = "ap-south-2"
 
   }

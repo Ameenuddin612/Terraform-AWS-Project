@@ -13,22 +13,6 @@ This project uses **Terraform** to provision a highly available and scalable web
 - ✅ **User Data scripts** to bootstrap EC2 servers on launch
 - ✅ Modular and reusable infrastructure as code
 
-## Architecture Overview
-User --> ALB --> [ EC2 - Server 1 ] / [ EC2 - Server 2 ]
-|
-VPC (10.0.0.0/16)
-├── Subnet 1 (10.0.1.0/24 - ap-south-2a)
-└── Subnet 2 (10.0.2.0/24 - ap-south-2b)
-└── Internet Gateway + Route Table
-
-## 📁 Project Structure
-├── main.tf # Main Terraform resources
-├── provider.tf # Provider and backend configuration
-├── variable.tf # Input variables
-├── userdata.sh # Bootstrap script for EC2 (Server 1)
-├── userdata1.sh # Bootstrap script for EC2 (Server 2)
-└── README.md # Project documentation
-
 ## Getting Started
 ### 📦 Prerequisites
 

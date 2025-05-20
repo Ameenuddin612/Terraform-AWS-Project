@@ -93,7 +93,7 @@ resource "aws_security_group" "web-sg" {
 }
 
 resource "aws_s3_bucket" "name" {
-  bucket = "todaynow20052025"
+  bucket = "Unique_bucket_name"
 }
 
 resource "aws_instance" "webserver1" {
